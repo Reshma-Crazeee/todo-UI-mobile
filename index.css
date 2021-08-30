@@ -1,0 +1,102 @@
+body{
+    font-family:"adobe-clean",sans-serif ;
+}
+div.old{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 150px 230px 20px 150px;
+}
+div.task{
+    font-size: 50px;
+    text-align: center;
+    float: left;
+    margin-left: 60px;
+}
+
+div.add{
+    font-size: 30px;
+    margin-left: 318px;
+}
+
+div.wrap{
+    display: grid;
+    grid-template-columns: repeat(3,300px);
+    justify-content: center;
+}
+div.trip{
+    border: 2px solid red;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+    width: 220px;
+    height: 350px;
+    padding: 10px 0px 5px 40px;
+    box-shadow: 7px 7px  rgb(209, 208, 208);
+}
+.h1{
+    color: red;
+}
+div#hey{
+    color: red;
+    text-decoration: line-through;
+    font-size: 25px;
+    font-weight: 700;
+    padding: 10px 0px 5px 10px ;
+    
+}
+div.one{
+    color: red;
+    font-size: 30px;
+    padding: 10px;
+}
+form{
+    font-size: 25px;
+    font-weight: 500;
+    padding:20px 0px 80px 0px;
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    div.todo{
+        color: #865439;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    form,#hey,#A,hr{
+        display: none;
+    }
+    .h1{
+        color: #865439;
+        font-size: 20px;
+        padding-top: 20px;
+    }
+    div.trip{
+        text-align: start;
+        border:1px solid red;
+        border-radius: 10px;
+        width: 330px;
+        height: 60px;
+        box-shadow: 5px 5px  rgb(209, 208, 208);
+        padding: 0px;
+    }
+    div.display{
+        margin-top: -98px;
+    }
+    div.wrap{
+        display: grid;
+        grid-template-columns: 100px;
+        grid-template-rows:100px;
+        justify-items: flex-end;
+        margin-right: -260px;
+    }
+    div.add{
+        margin: -181px 0px 20px 353px;
+    }
+
+    div.task{
+        font-size: 40px;
+        padding: 20px;
+        position: absolute;
+        top: 0;
+        right: 138px;
+    }
+}

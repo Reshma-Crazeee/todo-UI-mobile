@@ -1,0 +1,86 @@
+body{
+    font-family:"adobe-clean",sans-serif ;
+
+}
+div.image{
+    background: url('third.png');
+    height: 730px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: -1;
+    filter: blur(5px);
+}
+div#center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 350px;
+    z-index: 5;
+
+}
+div.three{
+    
+    border: 2px solid red;
+    background-color: white;
+    border-radius: 15px;
+    width: 380px;
+    height: 220px;
+    box-shadow: 7px 7px  rgb(209, 208, 208);
+}
+ 
+    
+
+div.anl{
+    color: red;
+    font-size: 30px;
+    margin: 20px;
+    text-align: center;
+    
+}
+.box{
+
+    border: 2px solid red;
+     border-radius: 10px; 
+     height: 40px;
+     width: 280px;
+     margin: 20px 50px;
+}
+   
+div#orange{
+    border: 9px solid red;
+    background: red;
+    border-radius: 40px;
+    height: 30px;
+    width: 90px;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+    margin-left: 140px;
+}
+@media screen and (min-width:320px) and (max-width:767px) {
+    div.three{
+        width: 307px;
+        height: 193px;
+    }
+    .box{
+        width: 245px;
+        height: 40px;
+        margin: 0px 21px 15px 29px;
+    }
+    div#orange{
+        margin-left: 100px;
+    }
+    #center{
+        position: absolute;
+        top: -145px;
+        right: 0;
+        left: 0;
+    }
+    div.image{
+        background-image: url("task.png");
+    }
+}

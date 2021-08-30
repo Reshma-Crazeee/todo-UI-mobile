@@ -1,0 +1,107 @@
+body{
+    font-family:"adobe-clean",sans-serif ;
+}
+div#hey{
+    color: red;
+    text-decoration: line-through;
+    font-size: 25px;
+    font-weight: 800;
+    padding: 10px 0px 5px 20px ;   
+
+}
+div#one{
+    color: red;
+    font-size: 30px;
+    padding: 10px;
+}
+form{
+    font-size: 25px;
+    padding:20px 0px 80px 0px;
+}
+div.yes{
+    border: 2px solid red;
+    float: left;
+    margin: 20px;
+    border-radius: 20px;
+    width: 290px;
+    height: 300px;
+    padding: 10px 0px 5px 40px;
+    box-shadow: 7px 7px  rgb(209, 208, 208);
+}
+div.sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+div.back{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0px 50px 50px 50px;
+}
+div.ttp{
+    font-size: 50px;
+    margin: 100px 100px 20px 100px ;
+    text-align:center;
+    font-weight: 600;
+    position: relative;
+}
+
+.ttp::before{
+    content: "";
+    display: block;
+    margin-left: 300px;
+    width: 200px ;
+    height: 2px;
+    background: black;
+    position: absolute;
+    left: 0;
+    top: 50%;
+}
+.ttp::after{
+    content: "";
+    display: block;
+    margin-right: 300px;
+    width: 200px;
+    height: 2px;
+    background: black;
+    position: absolute;
+    right: 0;
+    top: 50%;
+}
+.h22{
+    padding-left: 240px;
+}
+@media screen and (min-width:350px) and (max-width:767px) {
+    div.ttp{
+        position: absolute;
+        top: -74px;
+        left: -14px;
+        font-size: 30px;
+    }
+    .h14{
+        display: none;
+    }
+    .ttp::before{
+        display: none;
+    }
+    div.back{
+        margin-right: 300px;
+    }
+    div.yes{
+        height: 406px;
+        width: 243px;
+    }
+    #hey{
+        font-size: 21px;
+    }
+    form{
+        padding: 20px 0px 180px 0px;
+    }
+    .h22{
+        padding-left: 200px;
+    }
+    .ttp::after{
+        display: none;
+    }
+}
