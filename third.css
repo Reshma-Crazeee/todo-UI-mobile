@@ -4,7 +4,7 @@ body{
 }
 div.image{
     background: url('third.png');
-    height: 720px;
+    height: 700px;
     background-repeat: no-repeat;
     background-size: 100%;
     position: absolute;
